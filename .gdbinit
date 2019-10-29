@@ -1,4 +1,4 @@
-define set_ts
+define mohammed
 	set $tsrm_ls = $arg0
 end
 
@@ -24,11 +24,6 @@ define ____executor_globals
 	end
 end
 
-document ____executor_globals
-	portable way of accessing executor_globals, set $eg
-	this also sets compiler_globals to $cg
-	ZTS detection is automatically based on ext/standard module struct
-end
 
 define print_cvs
 	if $argc == 0
